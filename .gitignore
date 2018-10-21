@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# JetBrains tools
+.idea/
+
+# Mac
+.DS_Store
+
+# passwords
+passwords.py
