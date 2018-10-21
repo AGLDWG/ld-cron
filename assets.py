@@ -90,7 +90,7 @@ ASSETS = [
         'label': 'AGIFT',
         'uris': [
             {
-                'address': 'hhttps://data.naa.gov.au/def/agift.html',
+                'address': 'https://data.naa.gov.au/def/agift.html',
                 'regex': '<h1>Australian Governments\' Interactive Functions Thesaurus \(AGIFT\)</h1>'
             }
         ]
