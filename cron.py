@@ -28,7 +28,7 @@ def add_validation_failure_to_list(asset_label, uri, pattern):
 
 
 def make_error_message(messages):
-    message = 'Failure messages from LOC-I cron for run {}:\n\n'.format(
+    message = 'Failure messages from AGLDWG cron for run {}:\n\n'.format(
         datetime.datetime.strftime(
             datetime.datetime.now(),
             '%Y-%m-%dT%H:%M'
@@ -46,7 +46,7 @@ def send_email_via_mailjet(message, subject, to_addresses, secrets):
             {
                 'From': {
                     'Email': 'nicholas.car@csiro.au',
-                    'Name': 'LOC-I bot'
+                    'Name': 'AGLDWG bot'
                 },
                 'To': recipients,
                 'Subject': subject,
