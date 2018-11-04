@@ -34,7 +34,7 @@ ASSETS = [
         'uris': [
             {
                 'address': 'http://linked.data.gov.au/dataset/gnaf',
-                'regex': '\<h1\>G-NAF LDAPI\<\/h1\>'
+                'regex': '\<h1\>G-NAF - distributed as Linked Data\<\/h1\>'
             }
         ]
     },
