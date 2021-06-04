@@ -5,7 +5,7 @@ This script just runs twice daily and tests that a series of assets that are sup
 
 
 ## License
-This code is licensed using the GPL v3 (see the [LICENSE file](LICENSE) for the deed).
+This code is licensed using the Apache 2.0 (see the [LICENSE file](LICENSE) for the deed).
 
 
 ## Contacts
